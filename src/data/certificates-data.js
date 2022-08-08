@@ -5,7 +5,7 @@ export const certificateData = [
 	{
 		description: 'PSITE Region XI, IT Olympiad, Programming Competition Champion (February 11, 2020)',
 		img: `${url}/images/certificate/1.jpg`,
-		maxWidth: '50%'
+		maxWidth: '45%'
 	},
 	{
 		description: '',

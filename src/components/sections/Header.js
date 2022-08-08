@@ -28,7 +28,7 @@ export default function Header (){
 					<div className="no accent">
 						001.
 					</div>
-					<a href="">View CV</a>
+					<a href={`${process.env.REACT_APP_URL}cv.pdf`} target="_blank">View CV</a>
 				</div>
 			</motion.header>
 		</div>
