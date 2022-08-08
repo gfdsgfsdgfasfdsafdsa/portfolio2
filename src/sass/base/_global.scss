@@ -69,6 +69,11 @@ small{
   font-weight: 600;
 }
 
+.no-scroll{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 .about, .projects, .certificates, .contact{
   margin-top: 20rem;
   @media (max-width: $layout-breakpoint-small) {

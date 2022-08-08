@@ -35,8 +35,13 @@ export default function Layout({ children }){
 		setTimeout(() => {
 			setLoading(false)
 		}, 3500)
+		if(loading){
+			document.querySelector('body').classList.add('no-scroll')
+		}else{
+			document.querySelector('body').classList.remove('no-scroll')
+		}
 
-	}, [])
+	}, [loading])
 
 	return(
 		<>
