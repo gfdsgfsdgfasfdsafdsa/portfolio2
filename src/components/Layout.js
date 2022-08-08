@@ -29,7 +29,7 @@ const Loading = () => {
 }
 
 export default function Layout({ children }){
-	const [loading, setLoading] = useState(false)
+	const [loading, setLoading] = useState(true)
 
 	useEffect(() => {
 		setTimeout(() => {
