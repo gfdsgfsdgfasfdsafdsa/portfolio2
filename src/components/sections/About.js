@@ -13,12 +13,11 @@ export default function About(){
 				<div className="me">
 					<span className="l">Hello</span><small>,</small>  I am Romar Desabille<small>.</small>
 				</div>
-				I am recent graduate of Holy Cross of Davao <span className="l">College</span> in
-				the field of Bachelor of Science in Information Technology<small>,</small>
-				Currently looking for a job.
+				I am a recent graduate of Holy Cross of Davao <span className="l">College</span> in
+				the field of Bachelor of Science in Information Technology<small>.</small>
 			</FadeInScroll>
 			<FadeInScroll className="info">
-				I am currently learning fresh and <span className="l">sass</span> and hoping to <span className="l">continue</span> learning other technologies...
+				I am currently learning <span className="l">sass</span> and interested with some new frameworks like fresh and hoping to <span className="l">continue</span> learning other technologies...
 			</FadeInScroll>
 		</div>
 	)

@@ -15,7 +15,7 @@ export default function Contact(){
 					</button>
 				</a>
 				<div className="media">
-					<a href="">Github</a>
+					<a href="https://github.com/romar0001" target="_blank">Github</a>
 					<div className="extra">
 						<div>
 							romardesabille@gmail.com
