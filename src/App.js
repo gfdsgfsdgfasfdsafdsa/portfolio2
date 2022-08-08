@@ -11,7 +11,7 @@ import Contact from "./components/sections/Contact";
 import Certificates from "./components/sections/Certificates";
 
 function App(){
-    const [canScroll, setCanScroll] = useState(true)
+    const [canScroll, setCanScroll] = useState(false)
 
     useEffect(() => {
         setTimeout(() => {
