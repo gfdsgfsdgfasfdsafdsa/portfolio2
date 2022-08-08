@@ -1,0 +1,40 @@
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+
+  .me{
+    margin-top: -10rem;
+    font-family: $font-major;
+
+    .hello{
+      font-size: calc(1vw + 1rem);
+      font-weight: 100;
+    }
+
+    .name{
+      /*font-size: 14rem;*/
+      font-size: calc(8vw + 1rem);
+      font-weight: 300;
+    }
+
+    .last-n{
+      margin-left: 10rem;
+    }
+
+    .job{
+      font-weight: 100;
+      margin: 3rem 0 0 70rem;
+      font-size: calc(.8vw + 1rem);
+      @media (max-width: $layout-breakpoint-medium) {
+        margin: 3rem 0 0 50rem;
+      }
+      @media (max-width: $layout-breakpoint-small) {
+        margin: 3rem 0;
+      }
+    }
+  }
+}

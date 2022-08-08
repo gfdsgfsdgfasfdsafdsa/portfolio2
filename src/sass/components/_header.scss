@@ -1,0 +1,47 @@
+
+
+header{
+  padding-top: 2rem;
+
+  .head{
+    display: flex;
+    align-items: center;
+
+    a{
+      color: $accent;
+      text-decoration: none;
+      font-size: calc(.5vw + .8rem);
+      border: 1px solid $accent;
+      padding: .8rem 2rem;
+      border-radius: 5px;
+      text-transform: uppercase;
+      transition: background-color 200ms ease-in;
+      &:hover{
+        color: $black;
+        background-color: $accent;
+      }
+    }
+  }
+}
+
+nav{
+  z-index: 100;
+  background-color: $black;
+  position: fixed;
+  border-radius: 1rem;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  font-size: 1.8rem;
+  li{
+    margin-top: .5rem;
+    text-align: right;
+  }
+  a{
+    color: $accent2;
+    text-decoration: none;
+    &:hover{
+      text-decoration: line-through;
+    }
+  }
+}

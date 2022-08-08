@@ -1,0 +1,70 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $black;
+  color: $white;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $black
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $white;
+    border-radius: 20px;
+    border: 4px solid $black;
+  }
+}
+
+.stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+
+.f-major{
+  font-family: $font-major !important;
+  color: #969595;
+}
+
+.f-raleway{
+  font-family: $font-raleway !important;
+}
+
+.accent{
+  color: $accent;
+}
+
+.no{
+  font-family: $font-major;
+  /*
+    font-size: 4rem;
+  */
+  font-size: calc(3vw + .4rem);
+}
+
+.container{
+  margin: 0 auto;
+  width: Min(95%, 85%);
+}
+
+small{
+  font-family: $font-major !important;
+}
+
+.l{
+  font-style: italic;
+  text-decoration: line-through;
+  color: lightsalmon;
+}
+
+.title{
+  font-size: calc(8vw + .5rem);
+  /*
+  font-size: 14rem;
+  */
+  font-weight: 600;
+}

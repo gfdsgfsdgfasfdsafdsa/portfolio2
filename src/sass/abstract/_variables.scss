@@ -1,0 +1,17 @@
+$layout-breakpoint-large: 1920px;
+$layout-breakpoint-medium: 1440px;
+$layout-breakpoint-small: 960px;
+$layout-breakpoint-xsmall: 480px;
+
+// Colors
+$white: #fff;
+$black: #000;
+$accent: #FFC0CB;
+$accent2: #FFA07A;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Raleway:wght@300;400;600&display=swap');
+$font-major: 'Major Mono Display', monospace;
+$font-raleway: 'Raleway', sans-serif;
+$font-default: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+

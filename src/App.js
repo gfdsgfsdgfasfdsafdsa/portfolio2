@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/sections/Header";
+import Layout from "./components/Layout";
+import './App.css';
+import './sass/main.scss';
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+import Projects from "./components/sections/Projects";
+import {useEffect, useState} from "react";
+import Contact from "./components/sections/Contact";
+import Certificates from "./components/sections/Certificates";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    const [canScroll, setCanScroll] = useState(true)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setCanScroll(true);
+        }, 6000)
+    }, [])
+
+    return(
+        <>
+            <Layout>
+                <Header />
+                <Hero/>
+                {canScroll ?
+                    <>
+                        <About/>
+                        <Projects/>
+                        <Certificates/>
+                        <Contact/>
+                    </>
+                    : ''}
+            </Layout>
+        </>
+    )
 }
 
 export default App;
