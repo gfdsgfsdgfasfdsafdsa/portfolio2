@@ -1,7 +1,5 @@
-import './App.css';
 import Header from "./components/sections/Header";
 import Layout from "./components/Layout";
-import './App.css';
 import './sass/main.scss';
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
