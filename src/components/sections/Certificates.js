@@ -35,11 +35,11 @@ export default function Certificates(){
             setSlideIndex(certificateData.length)
         }
     }
-
+	/*
     const moveDot = index => {
         setSlideIndex(index)
     }
-
+	*/
 
 
 	return (
@@ -58,18 +58,24 @@ export default function Certificates(){
 							className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
 						>
 							<div className="detail">
-								<span className="description">{d.description}</span>
+								<span className="description">{certificateData[slideIndex-1].description}</span>
 								<a href={certificateData[slideIndex-1].img} target="_blank">View Full image</a>
 							</div>
-							<img
-								src={d.img}
-							/>
+							<div className="img">
+								<div className="index">{slideIndex}/3</div>
+								<img
+									src={d.img}
+									style={{ maxWidth: d.maxWidth}}
+									alt={d.description}
+								/>
+							</div>
 						</div>
 					)
 				})}
 				<BtnSlider moveSlide={nextSlide} direction={"next"} />
 				<BtnSlider moveSlide={prevSlide} direction={"prev"}/>
 
+				{/*
 				<div className="container-dots">
 					{Array.from({length: certificateData?.length}).map((item, index) => (
 						<div
@@ -79,6 +85,7 @@ export default function Certificates(){
 						/>
 					))}
 				</div>
+				*/}
 			</FadeInScroll>
 		</div>
 	)

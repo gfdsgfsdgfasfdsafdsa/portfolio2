@@ -1,6 +1,4 @@
 import FadeInScroll from "../anime/FadeInScroll";
-import I from '../../images/capstone/3.PNG';
-import A from '../../images/capstone/2.PNG';
 import {GithubIcon, LinkIcon} from "../icons/Index";
 import {motion} from "framer-motion";
 import projects from "../../data/projects";

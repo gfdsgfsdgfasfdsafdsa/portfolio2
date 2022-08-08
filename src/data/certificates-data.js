@@ -1,16 +1,21 @@
 
+const url = process.env.REACT_APP_URL
+
 export const certificateData = [
 	{
-		description: 'test',
-		img: "https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png",
+		description: 'PSITE Region XI, IT Olympiad, Programming Competition Champion (February 11, 2020)',
+		img: `${url}/images/certificate/1.jpg`,
+		maxWidth: '50%'
 	},
 	{
-		description: 'test2',
-		img: "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
+		description: '',
+		img: `${url}/images/certificate/2.jpg`,
+		maxWidth: '80%'
 	},
 	{
-		description: 'test3',
-		img: "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png"
+		description: 'PSITE Region XI, IT Research Congress Paper Participant (July 7, 2022)',
+		img: `${url}/images/certificate/3.jpg`,
+		maxWidth: '80%'
 	},
 
 ]
