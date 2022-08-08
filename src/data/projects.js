@@ -33,7 +33,7 @@ const projects = [
 		],
 		image: {
 			main: `${imgURL}/anime/2.png`,
-			hover: `${imgURL}/anime/1.PNG`,
+			hover: `${imgURL}/anime/1.png`,
 		},
 		admin: {
 			site: 'http://anime-anime.42web.io/admin',
