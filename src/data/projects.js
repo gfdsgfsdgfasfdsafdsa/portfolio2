@@ -8,36 +8,49 @@ function titleMultiplier(title){
 	}).join(' ')
 }
 
+const imgURL = process.env.REACT_APP_URL + 'images/'
 const projects = [
 	{
 		title: 'Courseme',
 		marquee: titleMultiplier('Courseme'),
 		description: [
-			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book',
-			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book',
+			'Capstone Project which student will take an exam and recommends course based on past exam dataset using multiple linear regression.',
 		],
 		image: {
-			main: 'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
-			hover: "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
+			main: `${imgURL}/capstone/1.png`,
+			hover: `${imgURL}/capstone/2.png`,
 		},
-		used: ['Django', 'HTML', 'CSS', 'TEST'],
-		link: 'a',
-		source_code: 'a',
+		used: ['Next/React JS', 'Django Rest Api', 'MUI/CSS'],
+		link: 'https://courseme.vercel.app/',
+		source_code: 'https://github.com/romar0001/capstone',
 	},
 	{
 		title: 'Anime',
 		marquee: titleMultiplier('Anime'),
 		description: [
-			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book',
-			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book',
+			'My 3rd year final project in one of my subject.',
 		],
 		image: {
-			main: 'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
-			hover: "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
+			main: `${imgURL}/anime/1.png`,
+			hover: `${imgURL}/anime/2.png`,
 		},
-		used: ['Django', 'HTML', 'CSS', 'TEST'],
-		link: '',
-		source_code: '',
+		used: ['HTML', 'CSS', 'PHP', 'MYSQL', 'BOOTSTRAP', 'JAVASCRIPT', 'MVC'],
+		link: 'http://anime-anime.42web.io/',
+		source_code: 'https://github.com/romar0001/anime',
+	},
+	{
+		title: 'Portfolio',
+		marquee: titleMultiplier('Portfolio'),
+		description: [
+			'My First Portfolio site.',
+		],
+		image: {
+			main: `${imgURL}/portfolio/1.png`,
+			hover: `${imgURL}/portfolio/2.png`,
+		},
+		used: ['Vue', 'CSS'],
+		link: 'https://romardesabille.vercel.app/',
+		source_code: 'https://github.com/romar0001/portfolio',
 	},
 ]
 

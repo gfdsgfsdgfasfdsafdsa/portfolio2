@@ -42,7 +42,7 @@ export default function Projects(){
 												</Fragment>
 											)
 									})}
-									<div className="used">Technology used</div>
+									<div className="used">Tech Stack / Implemented.</div>
 									<ul className="used-list">
 										{d.used.map((t, i) => (
 											<li key={i}>{t}</li>

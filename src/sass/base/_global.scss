@@ -68,3 +68,10 @@ small{
   */
   font-weight: 600;
 }
+
+.about, .projects, .certificates, .contact{
+  margin-top: 20rem;
+  @media (max-width: $layout-breakpoint-small) {
+    margin-top: 10rem;
+  }
+}

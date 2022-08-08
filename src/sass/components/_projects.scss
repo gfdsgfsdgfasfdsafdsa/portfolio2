@@ -3,6 +3,9 @@
   border-top: 1px solid #5e5e5e;
   border-bottom: 1px solid #5e5e5e;
   padding: 3rem 0;
+  @media (max-width: $layout-breakpoint-small) {
+    margin: 15rem 0 10rem 0;
+  }
 
   marquee{
     color: #5e5e5e;
@@ -25,9 +28,6 @@
 }
 
 .projects{
-  .title{
-    margin: 30rem 0 0 0;
-  }
 
   .project{
     margin-top: 10rem;
@@ -154,4 +154,8 @@
   font-size: 5rem;
   color: #908E8E;
   margin: 30rem 0;
+  @media (max-width: $layout-breakpoint-small) {
+    font-size: 3rem;
+    margin: 15rem 0;
+  }
 }
