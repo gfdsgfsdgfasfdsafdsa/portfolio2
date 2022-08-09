@@ -17,8 +17,8 @@ const projects = [
 			'Capstone Project which student will take an exam and recommends course based on past exam dataset using multiple linear regression.',
 		],
 		image: {
-			main: `${imgURL}/capstone/1.png`,
-			hover: `${imgURL}/capstone/2.png`,
+			main: `${imgURL}capstone/1.png`,
+			hover: `${imgURL}capstone/2.png`,
 		},
 		admin: '',
 		used: ['Next/React JS', 'Django Rest Api', 'MUI/CSS'],
@@ -32,8 +32,8 @@ const projects = [
 			'My 3rd year final project in one of my subject.',
 		],
 		image: {
-			main: `${imgURL}/anime/2.png`,
-			hover: `${imgURL}/anime/1.png`,
+			main: `${imgURL}anime/2.png`,
+			hover: `${imgURL}anime/1.png`,
 		},
 		admin: {
 			site: 'http://anime-anime.42web.io/admin',
@@ -45,14 +45,29 @@ const projects = [
 		source_code: 'https://github.com/romar0001/anime',
 	},
 	{
+		title: 'Snip',
+		marquee: titleMultiplier('Snip'),
+		description: [
+			'Simple Code saving app.',
+		],
+		image: {
+			main: `${imgURL}adv/1.png`,
+			hover: `${imgURL}adv/2.png`,
+		},
+		admin: '',
+		used: ['HTML/CSS', 'Django', 'Tailwind', 'Javascript'],
+		link: 'https://adv104.herokuapp.com/',
+		source_code: 'https://github.com/romar0001/adv104',
+	},
+	{
 		title: 'Portfolio',
 		marquee: titleMultiplier('Portfolio'),
 		description: [
 			'My First Portfolio site.',
 		],
 		image: {
-			main: `${imgURL}/portfolio/1.png`,
-			hover: `${imgURL}/portfolio/2.png`,
+			main: `${imgURL}portfolio/1.png`,
+			hover: `${imgURL}portfolio/2.png`,
 		},
 		admin: '',
 		used: ['Vue', 'CSS'],

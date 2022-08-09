@@ -9,7 +9,7 @@ function BtnSlider({ direction, moveSlide }) {
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
 	    <span>
-			{direction === "next" ? '.▶' : '◀.'}
+			{direction === "next" ? '→' : '←'}
 	    </span>
     </button>
   );
