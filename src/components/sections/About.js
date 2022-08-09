@@ -17,7 +17,8 @@ export default function About(){
 				the field of Bachelor of Science in Information Technology<small>.</small>
 			</FadeInScroll>
 			<FadeInScroll className="info">
-				I am currently learning <span className="l">Sass</span> and interested with some new frameworks like fresh and hoping to <span className="l">continue</span> learning more technologies...
+				I am currently learning <span className="l">Sass</span> and interested learning frontend libraries/frameworks. My aim is to <span className="l">learn </span>
+				with experts and to help achieve the <span className="l">goals</span> of the company im in.
 			</FadeInScroll>
 		</div>
 	)

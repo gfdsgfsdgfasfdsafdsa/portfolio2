@@ -15,7 +15,6 @@ export default function Header (){
 					<li><a href="#002">002.</a></li>
 					<li><a href="#003">003.</a></li>
 					<li><a href="#004">004.</a></li>
-					<li><a href="#005">005.</a></li>
 				</ul>
 			</motion.nav>
 			<motion.header

@@ -26,7 +26,9 @@ function App(){
                     <>
                         <About/>
                         <Projects/>
-                        <Certificates/>
+                        {/*
+                            <Certificates/>
+                        */}
                         <Contact/>
                     </>
                     : ''}

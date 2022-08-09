@@ -3,9 +3,9 @@ import FadeInScroll from "../anime/FadeInScroll";
 
 export default function Contact(){
 	return (
-		<div className="container contact" id="005">
+		<div className="container contact" id="004">
 			<FadeInScroll className="accent title">
-				<span className="no">005.</span>
+				<span className="no">004.</span>
 				<span className="f-raleway">Contact</span>
 			</FadeInScroll>
 			<FadeInScroll className="links">
@@ -24,6 +24,7 @@ export default function Contact(){
 							&copy; 2022
 						</div>
 					</div>
+					<a style={{fontSize:'1.5rem', textDecoration: 'line-through'}} href="https://github.com/romar0001/portfolio2" target="_blank">Source Code</a>
 				</div>
 			</FadeInScroll>
 		</div>
