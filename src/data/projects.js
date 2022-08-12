@@ -26,25 +26,6 @@ const projects = [
 		source_code: 'https://github.com/romar0001/capstone',
 	},
 	{
-		title: 'Tictactoe',
-		marquee: titleMultiplier('Tictactoe'),
-		description: [
-			'Simple tictactoe game using api which recommends moves and im using it for computer move.',
-		],
-		image: {
-			main: `${imgURL}tictactoe/1.png`,
-			hover: `${imgURL}tictactoe/2.png`,
-		},
-		admin: {
-			site: 'https://rapidapi.com/stujo/api/tic-tac-toe',
-			user: 'Api used.',
-			pass: '',
-		},
-		used: ['Fresh', 'Tailwind'],
-		link: 'https://tictactoe1.deno.dev/',
-		source_code: 'https://github.com/romar0001/tictactoe',
-	},
-	{
 		title: 'Anime',
 		marquee: titleMultiplier('Anime'),
 		description: [
@@ -62,6 +43,25 @@ const projects = [
 		used: ['HTML', 'CSS', 'PHP', 'MySQL', 'Bootstrap', 'Javascript', 'MVC'],
 		link: 'http://anime-anime.42web.io/',
 		source_code: 'https://github.com/romar0001/anime',
+	},
+	{
+		title: 'Tictactoe',
+		marquee: titleMultiplier('Tictactoe'),
+		description: [
+			'Simple tictactoe game using api which recommends moves and im using it for computer move.',
+		],
+		image: {
+			main: `${imgURL}tictactoe/1.png`,
+			hover: `${imgURL}tictactoe/2.png`,
+		},
+		admin: {
+			site: 'https://rapidapi.com/stujo/api/tic-tac-toe',
+			user: 'Api used.',
+			pass: '',
+		},
+		used: ['Fresh', 'Tailwind'],
+		link: 'https://tictactoe1.deno.dev/',
+		source_code: 'https://github.com/romar0001/tictactoe',
 	},
 	{
 		title: 'Snip',
