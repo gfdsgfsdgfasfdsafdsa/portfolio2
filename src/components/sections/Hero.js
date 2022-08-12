@@ -61,7 +61,7 @@ export default function Hero(){
 					</div>
 				</div>
 				<div className="job f-raleway">
-					{letterAnime("FRONTEND ENTHUSIAST")}
+					{letterAnime("Aspiring WebDeveloper")}
 				</div>
 			</motion.div>
 		</main>
