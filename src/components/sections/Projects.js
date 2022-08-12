@@ -47,8 +47,8 @@ export default function Projects(){
 											<div style={{marginTop: '50px'}}>
 												<a className="site" href={d.admin.site} target="_blank">{d.admin.site}</a>
 											</div>
-											<div className="user">USERNAME: {d.admin.user}</div>
-											<div className="pass">PASSWORD: {d.admin.pass}</div>
+											<div className="user">{d.admin.user}</div>
+											<div className="pass">{d.admin.pass}</div>
 										</div>
 									): ''}
 									<div className="used">Tech Stack / Implemented.</div>
